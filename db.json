@@ -1,0 +1,20 @@
+{
+    "users":[
+        {
+            "id":"1",
+            "Name":"Akash",
+            "username":"akash",
+            "email":"akash@gmail.com",
+            "password":"12345",
+            "city":"Mumbai"
+        },
+        {
+            "id":"2",
+            "Name":"Jashwanth",
+            "username":"jashwanth",
+            "email":"jashwanth@gmail.com",
+            "password":"123456",
+            "city":"Mumbai"
+        }
+    ]
+}

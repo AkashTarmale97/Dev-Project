@@ -3,6 +3,7 @@ import { LoginComponent } from './Admin/login/login.component';
 import { SignupComponent } from './Admin/signup/signup.component';
 import { ProductComponent } from './Admin/product/product.component';
 import { LayoutComponent } from './Admin/layout/layout.component';
+import { Router } from '@angular/router';
 
 export const routes: Routes = [
     {

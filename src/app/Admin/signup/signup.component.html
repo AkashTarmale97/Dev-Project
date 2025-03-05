@@ -1,1 +1,23 @@
-<h1>Login Works !!!!</h1>
+<div class="parent">
+    <div class="container">
+        <div class="bg"></div>
+        <form>
+            <h2 class="heading">SignUp Here</h2>
+
+            <label for="Name">Name: </label>
+            <input name="name" type="text" [(ngModel)]="username">
+
+            <label for="username">Username: </label>
+            <input name="username" type="text" [(ngModel)]="username">
+
+            <label for="email">Email: </label>
+            <input name="email" type="email" [(ngModel)]="email">
+
+            <label for="password">Password: </label>
+            <input name="password" type="password" [(ngModel)]="password">
+
+            <button class="register-btn" type="button" (click)="signUp()">Sign Up</button>
+            
+        </form>
+    </div>
+</div>
